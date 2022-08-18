@@ -10,11 +10,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="50b0f755-ca8f-4569-858c-288b707287c1" name="Default Changelist" comment="建立数据库中的两个表格">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yuanerya/lostfound/domain/LostThing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yuanerya/lostfound/domain/Student.java" afterDir="false" />
+    <list default="true" id="50b0f755-ca8f-4569-858c-288b707287c1" name="Default Changelist" comment="完成配置配置以及实体类的创建">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yuanerya/lostfound/mapper/LostThingMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/89365bc0-2494-46e5-a8c5-1b9cab8570eb.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/89365bc0-2494-46e5-a8c5-1b9cab8570eb.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SQL/lost_found.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/SQL/lost_found.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yuanerya/lostfound/domain/LostThing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yuanerya/lostfound/domain/LostThing.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,11 +53,42 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../参考/lost-found" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../DatebaseTest" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.test">
+    <configuration name="test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lost-found" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yuanerya.lostfound.mapper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.yuanerya.lostfound.mapper" />
+      <option name="MAIN_CLASS_NAME" value="com.yuanerya.lostfound.mapper.test" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lost-found" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yuanerya.lostfound.mapper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.yuanerya.lostfound.mapper" />
+      <option name="MAIN_CLASS_NAME" value="com.yuanerya.lostfound.mapper.test" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LostFoundApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="lost-found" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.yuanerya.lostfound.LostFoundApplication" />
@@ -63,6 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.test" />
+        <item itemvalue="JUnit.test.contextLoads" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -74,7 +113,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1660804246363</updated>
-      <workItem from="1660804251625" duration="6842000" />
+      <workItem from="1660804251625" duration="11726000" />
     </task>
     <task id="LOCAL-00001" summary="创建项目">
       <created>1660804340139</created>
@@ -90,7 +129,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660807272614</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="完成配置配置以及实体类的创建">
+      <created>1660811496129</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1660811496129</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -110,7 +156,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="创建项目" />
     <MESSAGE value="建立数据库中的两个表格" />
-    <option name="LAST_COMMIT_MESSAGE" value="建立数据库中的两个表格" />
+    <MESSAGE value="完成配置配置以及实体类的创建" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成配置配置以及实体类的创建" />
   </component>
   <component name="WindowStateProjectService">
     <state x="571" y="134" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1660807423318">
@@ -121,26 +168,26 @@
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="523" y="209" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.816@0.0.1536.816" timestamp="1660807045254" />
-    <state x="549" y="163" key="FileChooserDialogImpl" timestamp="1660807936360">
+    <state x="549" y="163" key="FileChooserDialogImpl" timestamp="1660814213661">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="549" y="163" key="FileChooserDialogImpl/0.0.1536.816@0.0.1536.816" timestamp="1660807936360" />
-    <state width="1024" height="208" key="GridCell.Tab.0.bottom" timestamp="1660807140636">
+    <state x="549" y="163" key="FileChooserDialogImpl/0.0.1536.816@0.0.1536.816" timestamp="1660814213661" />
+    <state width="1493" height="208" key="GridCell.Tab.0.bottom" timestamp="1660815657070">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1024" height="208" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1660807140636" />
-    <state width="1024" height="208" key="GridCell.Tab.0.center" timestamp="1660807140636">
+    <state width="1493" height="208" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1660815657070" />
+    <state width="1493" height="208" key="GridCell.Tab.0.center" timestamp="1660815657070">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1024" height="208" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1660807140636" />
-    <state width="1024" height="208" key="GridCell.Tab.0.left" timestamp="1660807140636">
+    <state width="1493" height="208" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1660815657070" />
+    <state width="1493" height="208" key="GridCell.Tab.0.left" timestamp="1660815657070">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1024" height="208" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1660807140636" />
-    <state width="1024" height="208" key="GridCell.Tab.0.right" timestamp="1660807140636">
+    <state width="1493" height="208" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1660815657070" />
+    <state width="1493" height="208" key="GridCell.Tab.0.right" timestamp="1660815657070">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1024" height="208" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1660807140636" />
+    <state width="1493" height="208" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1660815657070" />
     <state width="284" height="477" key="HiddenNamespacesPopup" timestamp="1660804952612">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
@@ -149,5 +196,13 @@
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="668" y="284" width="404" height="247" key="com.intellij.database.actions.DdlActions$CreateObject$1/0.0.1536.816@0.0.1536.816" timestamp="1660805228731" />
+    <state x="548" y="226" width="439" height="348" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog" timestamp="1660815350169">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="548" y="226" width="439" height="348" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog/0.0.1536.816@0.0.1536.816" timestamp="1660815350169" />
+    <state x="431" y="137" width="672" height="678" key="search.everywhere.popup" timestamp="1660814294922">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="431" y="137" width="672" height="678" key="search.everywhere.popup/0.0.1536.816@0.0.1536.816" timestamp="1660814294922" />
   </component>
 </project>

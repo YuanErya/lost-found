@@ -1,16 +1,18 @@
 package com.yuanerya.lostfound.domain;
 
+import com.baomidou.mybatisplus.annotation.TableName;
 import lombok.Data;
 import java.util.Date;
 
 //实体类丢失物品
 @Data
+
 public class LostThing {
-    private Integer lost_id;
-    private String lost_name;
-    private String lost_position;
-    private String lost_description;
-    private String claim_position;
-    private Date lost_date;
-    private Integer is_returned;
+    private Integer lostId;
+    private String lostName;
+    private String lostPosition;
+    private String lostDescription;
+    private String claimPosition;
+    private Date lostDate;
+    private Integer isReturned;
 }

@@ -1174,8 +1174,8 @@
     <view id="376" parent="2" name="VIEW_TABLE_USAGE">
       <System>1</System>
     </view>
-    <table id="377" parent="3" name="lost_things"/>
-    <table id="378" parent="3" name="student"/>
+    <table id="377" parent="3" name="lf_lost_thing"/>
+    <table id="378" parent="3" name="lf_student"/>
     <table id="379" parent="7" name="category"/>
     <table id="380" parent="7" name="employees"/>
     <table id="381" parent="7" name="film"/>
@@ -4530,7 +4530,7 @@
     <column id="1117" parent="377" name="lost_id">
       <Position>1</Position>
       <Comment>失物id</Comment>
-      <DataType>varchar(10)|0s</DataType>
+      <DataType>tinyint unsigned|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
@@ -4544,21 +4544,21 @@
     <column id="1119" parent="377" name="lost_position">
       <Position>3</Position>
       <Comment>捡到的地点</Comment>
-      <DataType>tinyint unsigned|0s</DataType>
+      <DataType>varchar(40)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="1120" parent="377" name="lost_description">
       <Position>4</Position>
       <Comment>失物描述</Comment>
-      <DataType>varchar(10)|0s</DataType>
+      <DataType>varchar(100)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="1121" parent="377" name="claim_position">
       <Position>5</Position>
       <Comment>领取位置</Comment>
-      <DataType>varchar(10)|0s</DataType>
+      <DataType>varchar(40)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
@@ -4602,7 +4602,7 @@
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="1128" parent="378" name="class">
+    <column id="1128" parent="378" name="classbj">
       <Position>4</Position>
       <Comment>班级</Comment>
       <DataType>varchar(10)|0s</DataType>

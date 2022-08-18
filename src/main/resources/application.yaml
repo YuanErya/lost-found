@@ -4,9 +4,17 @@ server:
 
 spring:
   datasource:
-    driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/lost_found
-    username: root
-    password: thf20021219
-    type: com.alibaba.druid.pool.DruidDataSource
+    druid:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      url: jdbc:mysql://localhost:3306/lost_found
+      username: root
+      password: thf20021219
+
+mybatis-plus:
+  global-config:
+    db-config:
+      table-prefix: lf_
+      id-type: auto
+
+
 
