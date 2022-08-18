@@ -10,16 +10,24 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="50b0f755-ca8f-4569-858c-288b707287c1" name="Default Changelist" comment="创建项目">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SQL/lost_found.sql" afterDir="false" />
+    <list default="true" id="50b0f755-ca8f-4569-858c-288b707287c1" name="Default Changelist" comment="建立数据库中的两个表格">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yuanerya/lostfound/domain/LostThing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yuanerya/lostfound/domain/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -43,7 +51,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../DatebaseTest" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../参考/lost-found" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
@@ -66,7 +74,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1660804246363</updated>
-      <workItem from="1660804251625" duration="2947000" />
+      <workItem from="1660804251625" duration="6842000" />
     </task>
     <task id="LOCAL-00001" summary="创建项目">
       <created>1660804340139</created>
@@ -75,7 +83,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660804340139</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="建立数据库中的两个表格">
+      <created>1660807272614</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1660807272614</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -94,21 +109,22 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="创建项目" />
-    <option name="LAST_COMMIT_MESSAGE" value="创建项目" />
+    <MESSAGE value="建立数据库中的两个表格" />
+    <option name="LAST_COMMIT_MESSAGE" value="建立数据库中的两个表格" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="361" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1660805013879">
+    <state x="571" y="134" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1660807423318">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="361" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.816@0.0.1536.816" timestamp="1660805013879" />
+    <state x="571" y="134" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.816@0.0.1536.816" timestamp="1660807423318" />
     <state x="523" y="209" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1660807045254">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="523" y="209" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.816@0.0.1536.816" timestamp="1660807045254" />
-    <state x="549" y="163" key="FileChooserDialogImpl" timestamp="1660805358471">
+    <state x="549" y="163" key="FileChooserDialogImpl" timestamp="1660807936360">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="549" y="163" key="FileChooserDialogImpl/0.0.1536.816@0.0.1536.816" timestamp="1660805358471" />
+    <state x="549" y="163" key="FileChooserDialogImpl/0.0.1536.816@0.0.1536.816" timestamp="1660807936360" />
     <state width="1024" height="208" key="GridCell.Tab.0.bottom" timestamp="1660807140636">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
