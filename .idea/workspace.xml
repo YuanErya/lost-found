@@ -10,18 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="50b0f755-ca8f-4569-858c-288b707287c1" name="Default Changelist" comment="完成了丢失物品的增删改查">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yuanerya/lostfound/config/FJsonConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yuanerya/lostfound/config/JsonResult.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lost-found.iml" beforeDir="false" afterPath="$PROJECT_DIR$/lost-found.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yuanerya/lostfound/controller/LostThingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yuanerya/lostfound/controller/LostThingController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yuanerya/lostfound/controller/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yuanerya/lostfound/controller/StudentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yuanerya/lostfound/domain/LostThing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yuanerya/lostfound/domain/LostThing.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yuanerya/lostfound/controller/StudentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yuanerya/lostfound/controller/StudentController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yuanerya/lostfound/domain/LostThing.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yuanerya/lostfound/domain/LostThing.class" afterDir="false" />
-    </list>
+    <list default="true" id="50b0f755-ca8f-4569-858c-288b707287c1" name="Default Changelist" comment="基本完成" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -180,7 +169,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1660804246363</updated>
-      <workItem from="1660804251625" duration="55945000" />
+      <workItem from="1660804251625" duration="56044000" />
     </task>
     <task id="LOCAL-00001" summary="创建项目">
       <created>1660804340139</created>
@@ -259,7 +248,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660906665508</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="基本完成">
+      <created>1660922388834</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1660922388834</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -286,7 +282,8 @@
     <MESSAGE value="大致完成登录" />
     <MESSAGE value="完成登录和注册" />
     <MESSAGE value="完成了丢失物品的增删改查" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成了丢失物品的增删改查" />
+    <MESSAGE value="基本完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="基本完成" />
   </component>
   <component name="WindowStateProjectService">
     <state x="571" y="134" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1660807423318">
@@ -305,38 +302,38 @@
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="549" y="163" key="FileChooserDialogImpl/0.0.1536.816@0.0.1536.816" timestamp="1660814213661" />
-    <state width="1493" height="208" key="GridCell.Tab.0.bottom" timestamp="1660921989587">
+    <state width="1493" height="208" key="GridCell.Tab.0.bottom" timestamp="1660922423683">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="208" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1660921989587" />
-    <state width="1493" height="208" key="GridCell.Tab.0.center" timestamp="1660921989587">
+    <state width="1493" height="208" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1660922423683" />
+    <state width="1493" height="208" key="GridCell.Tab.0.center" timestamp="1660922423683">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="208" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1660921989587" />
-    <state width="1493" height="208" key="GridCell.Tab.0.left" timestamp="1660921989587">
+    <state width="1493" height="208" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1660922423683" />
+    <state width="1493" height="208" key="GridCell.Tab.0.left" timestamp="1660922423683">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="208" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1660921989587" />
-    <state width="1493" height="208" key="GridCell.Tab.0.right" timestamp="1660921989587">
+    <state width="1493" height="208" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1660922423683" />
+    <state width="1493" height="208" key="GridCell.Tab.0.right" timestamp="1660922423683">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="208" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1660921989587" />
-    <state width="1493" height="208" key="GridCell.Tab.1.bottom" timestamp="1660921989582">
+    <state width="1493" height="208" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1660922423683" />
+    <state width="1493" height="208" key="GridCell.Tab.1.bottom" timestamp="1660922423682">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="208" key="GridCell.Tab.1.bottom/0.0.1536.816@0.0.1536.816" timestamp="1660921989582" />
-    <state width="1493" height="208" key="GridCell.Tab.1.center" timestamp="1660921989582">
+    <state width="1493" height="208" key="GridCell.Tab.1.bottom/0.0.1536.816@0.0.1536.816" timestamp="1660922423682" />
+    <state width="1493" height="208" key="GridCell.Tab.1.center" timestamp="1660922423682">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="208" key="GridCell.Tab.1.center/0.0.1536.816@0.0.1536.816" timestamp="1660921989582" />
-    <state width="1493" height="208" key="GridCell.Tab.1.left" timestamp="1660921989582">
+    <state width="1493" height="208" key="GridCell.Tab.1.center/0.0.1536.816@0.0.1536.816" timestamp="1660922423682" />
+    <state width="1493" height="208" key="GridCell.Tab.1.left" timestamp="1660922423682">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="208" key="GridCell.Tab.1.left/0.0.1536.816@0.0.1536.816" timestamp="1660921989582" />
-    <state width="1493" height="208" key="GridCell.Tab.1.right" timestamp="1660921989582">
+    <state width="1493" height="208" key="GridCell.Tab.1.left/0.0.1536.816@0.0.1536.816" timestamp="1660922423682" />
+    <state width="1493" height="208" key="GridCell.Tab.1.right" timestamp="1660922423682">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="208" key="GridCell.Tab.1.right/0.0.1536.816@0.0.1536.816" timestamp="1660921989582" />
+    <state width="1493" height="208" key="GridCell.Tab.1.right/0.0.1536.816@0.0.1536.816" timestamp="1660922423682" />
     <state width="284" height="477" key="HiddenNamespacesPopup" timestamp="1660804952612">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
