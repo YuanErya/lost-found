@@ -29,6 +29,6 @@ INSERT INTO lf_lost_thing VALUES(1,'钥匙','二教','xxx','xxx','2022-8-1','1')
 INSERT INTO lf_lost_thing VALUES(2,'手机','三教','xxx','xxx','2022-8-2','0');
 
 
-INSERT INTO lf_student VALUES(1,'2021211000','xxx','2021','xxx','xxx');
-INSERT INTO lf_student VALUES(2,'2021211001','xxx','2021','xxx','xxx');
+INSERT INTO lf_student VALUES(1,'2021211000','1234','xxx','2021','xxx','xxx');
+INSERT INTO lf_student VALUES(2,'2021211001','1234','xxx','2021','xxx','xxx');
 

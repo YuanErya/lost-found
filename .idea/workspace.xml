@@ -10,19 +10,23 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="50b0f755-ca8f-4569-858c-288b707287c1" name="Default Changelist" comment="开始编写服务层">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yuanerya/lostfound/controller/StudentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/89365bc0-2494-46e5-a8c5-1b9cab8570eb.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/89365bc0-2494-46e5-a8c5-1b9cab8570eb.xml" afterDir="false" />
+    <list default="true" id="50b0f755-ca8f-4569-858c-288b707287c1" name="Default Changelist" comment="在Mapper中加入登录查询的方法">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_attoparser_attoparser_2_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_thymeleaf_2_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_extras_thymeleaf_extras_java8time_3_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_3_0_15_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring5_3_0_15_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_unbescape_unbescape_1_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yuanerya/lostfound/Interceptor/StudentInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yuanerya/lostfound/config/SessionInterceptorConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yuanerya/lostfound/domain/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yuanerya/lostfound/domain/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yuanerya/lostfound/mapper/StudentMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yuanerya/lostfound/mapper/StudentMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yuanerya/lostfound/service/StudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yuanerya/lostfound/service/StudentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yuanerya/lostfound/service/impl/StudentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yuanerya/lostfound/service/impl/StudentServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/yuanerya/lostfound/mapper/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/yuanerya/lostfound/mapper/test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yuanerya/lostfound/domain/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yuanerya/lostfound/domain/Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yuanerya/lostfound/mapper/StudentMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yuanerya/lostfound/mapper/StudentMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yuanerya/lostfound/service/StudentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yuanerya/lostfound/service/StudentService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yuanerya/lostfound/service/impl/StudentServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yuanerya/lostfound/service/impl/StudentServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lost-found.iml" beforeDir="false" afterPath="$PROJECT_DIR$/lost-found.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SQL/lost_found.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/SQL/lost_found.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yuanerya/lostfound/controller/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yuanerya/lostfound/controller/StudentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/lost-found.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/yuanerya/lostfound/mapper/test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/yuanerya/lostfound/mapper/test.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,6 +39,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -55,6 +60,11 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -64,7 +74,7 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
-  <component name="RunManager" selected="JUnit.test.testLogin">
+  <component name="RunManager" selected="Spring Boot.LostFoundApplication">
     <configuration name="StudentServiceTestCase.testGetById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="lost-found" />
       <extension name="coverage">
@@ -172,7 +182,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1660804246363</updated>
-      <workItem from="1660804251625" duration="30555000" />
+      <workItem from="1660804251625" duration="39220000" />
     </task>
     <task id="LOCAL-00001" summary="创建项目">
       <created>1660804340139</created>
@@ -216,7 +226,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660868780363</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="在Mapper中加入登录查询的方法">
+      <created>1660878101898</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1660878101898</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -239,7 +256,8 @@
     <MESSAGE value="完成配置配置以及实体类的创建" />
     <MESSAGE value="顺利获取到数据库数据" />
     <MESSAGE value="开始编写服务层" />
-    <option name="LAST_COMMIT_MESSAGE" value="开始编写服务层" />
+    <MESSAGE value="在Mapper中加入登录查询的方法" />
+    <option name="LAST_COMMIT_MESSAGE" value="在Mapper中加入登录查询的方法" />
   </component>
   <component name="WindowStateProjectService">
     <state x="571" y="134" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1660807423318">
@@ -258,22 +276,38 @@
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="549" y="163" key="FileChooserDialogImpl/0.0.1536.816@0.0.1536.816" timestamp="1660814213661" />
-    <state width="1493" height="208" key="GridCell.Tab.0.bottom" timestamp="1660877982909">
+    <state width="1493" height="208" key="GridCell.Tab.0.bottom" timestamp="1660896914619">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="208" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1660877982909" />
-    <state width="1493" height="208" key="GridCell.Tab.0.center" timestamp="1660877982909">
+    <state width="1493" height="208" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1660896914619" />
+    <state width="1493" height="208" key="GridCell.Tab.0.center" timestamp="1660896914619">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="208" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1660877982909" />
-    <state width="1493" height="208" key="GridCell.Tab.0.left" timestamp="1660877982909">
+    <state width="1493" height="208" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1660896914619" />
+    <state width="1493" height="208" key="GridCell.Tab.0.left" timestamp="1660896914619">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="208" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1660877982909" />
-    <state width="1493" height="208" key="GridCell.Tab.0.right" timestamp="1660877982909">
+    <state width="1493" height="208" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1660896914619" />
+    <state width="1493" height="208" key="GridCell.Tab.0.right" timestamp="1660896914619">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="208" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1660877982909" />
+    <state width="1493" height="208" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1660896914619" />
+    <state width="1493" height="208" key="GridCell.Tab.1.bottom" timestamp="1660896914619">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1493" height="208" key="GridCell.Tab.1.bottom/0.0.1536.816@0.0.1536.816" timestamp="1660896914619" />
+    <state width="1493" height="208" key="GridCell.Tab.1.center" timestamp="1660896914619">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1493" height="208" key="GridCell.Tab.1.center/0.0.1536.816@0.0.1536.816" timestamp="1660896914619" />
+    <state width="1493" height="208" key="GridCell.Tab.1.left" timestamp="1660896914619">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1493" height="208" key="GridCell.Tab.1.left/0.0.1536.816@0.0.1536.816" timestamp="1660896914619" />
+    <state width="1493" height="208" key="GridCell.Tab.1.right" timestamp="1660896914619">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1493" height="208" key="GridCell.Tab.1.right/0.0.1536.816@0.0.1536.816" timestamp="1660896914619" />
     <state width="284" height="477" key="HiddenNamespacesPopup" timestamp="1660804952612">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
