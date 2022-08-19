@@ -9,6 +9,7 @@ public class Student {
     @TableId(value = "student_id")
     private String studentId;
     private String studentNo;
+    private String studentPassword;
     private String institute;
     private String grade;
     private String classbj;

@@ -11,4 +11,5 @@ public interface StudentService {
     Boolean delete(Integer id);
     Student getById(Integer id);
     List<Student> getAll();
+    public Student login(Student student);
 }

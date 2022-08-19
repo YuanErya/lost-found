@@ -45,4 +45,10 @@ public class StudentServiceImpl implements StudentService {
     public List<Student> getAll() {
         return studentMapper.selectList(null);
     }
+
+    //登录查询
+    @Override
+    public Student login(Student student) {
+        return studentMapper.login(student);
+    }
 }

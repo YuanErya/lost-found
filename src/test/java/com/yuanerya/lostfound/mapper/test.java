@@ -39,4 +39,19 @@ public class test {
     void testGetAll() {
         System.out.println(st.selectList(null));
     }
+
+    @Test
+    void testLogin() {
+
+        //测试登录查询
+        Student book = new Student();
+        book.setStudentNo("2021211000");
+        book.setStudentPassword("1234");
+        book.setInstitute("测试数据123");
+        book.setGrade("123");
+        book.setClassbj("12232432");
+        book.setName("haahah");
+
+        System.out.println(st.login(book));
+    }
 }

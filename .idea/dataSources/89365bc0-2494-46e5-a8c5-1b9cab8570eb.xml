@@ -4597,154 +4597,161 @@
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="1127" parent="378" name="institute">
+    <column id="1127" parent="378" name="student_password">
       <Position>3</Position>
+      <Comment>登录密码</Comment>
+      <DataType>varchar(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="1128" parent="378" name="institute">
+      <Position>4</Position>
       <Comment>学院</Comment>
       <DataType>varchar(20)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="1128" parent="378" name="grade">
-      <Position>4</Position>
+    <column id="1129" parent="378" name="grade">
+      <Position>5</Position>
       <Comment>年级</Comment>
       <DataType>varchar(4)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="1129" parent="378" name="classbj">
-      <Position>5</Position>
+    <column id="1130" parent="378" name="classbj">
+      <Position>6</Position>
       <Comment>班级</Comment>
       <DataType>varchar(10)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="1130" parent="378" name="name">
-      <Position>6</Position>
+    <column id="1131" parent="378" name="name">
+      <Position>7</Position>
       <Comment>姓名</Comment>
       <DataType>varchar(10)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="1131" parent="378" name="PRIMARY">
+    <key id="1132" parent="378" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>student_id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="1132" parent="379" name="category_id">
+    <column id="1133" parent="379" name="category_id">
       <Position>1</Position>
       <DataType>tinyint|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="1133" parent="379" name="name">
+    <column id="1134" parent="379" name="name">
       <Position>2</Position>
       <DataType>varchar(25)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="1134" parent="379" name="last_update">
+    <column id="1135" parent="379" name="last_update">
       <Position>3</Position>
       <DataType>timestamp|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="1135" parent="379" name="PRIMARY">
+    <key id="1136" parent="379" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>category_id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="1136" parent="380" name="emp_no">
+    <column id="1137" parent="380" name="emp_no">
       <Position>1</Position>
       <DataType>int|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="1137" parent="380" name="birth_date">
+    <column id="1138" parent="380" name="birth_date">
       <Position>2</Position>
       <DataType>date|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="1138" parent="380" name="first_name">
+    <column id="1139" parent="380" name="first_name">
       <Position>3</Position>
       <DataType>varchar(14)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="1139" parent="380" name="last_name">
+    <column id="1140" parent="380" name="last_name">
       <Position>4</Position>
       <DataType>varchar(16)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="1140" parent="380" name="gender">
+    <column id="1141" parent="380" name="gender">
       <Position>5</Position>
       <DataType>char(1)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="1141" parent="380" name="hire_date">
+    <column id="1142" parent="380" name="hire_date">
       <Position>6</Position>
       <DataType>date|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="1142" parent="380" name="PRIMARY">
+    <key id="1143" parent="380" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>emp_no</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="1143" parent="381" name="film_id">
+    <column id="1144" parent="381" name="film_id">
       <Position>1</Position>
       <DataType>smallint|0s</DataType>
       <NotNull>1</NotNull>
       <DefaultExpression>0</DefaultExpression>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="1144" parent="381" name="title">
+    <column id="1145" parent="381" name="title">
       <Position>2</Position>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="1145" parent="381" name="description">
+    <column id="1146" parent="381" name="description">
       <Position>3</Position>
       <DataType>text|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="1146" parent="381" name="PRIMARY">
+    <key id="1147" parent="381" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>film_id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="1147" parent="382" name="film_id">
+    <column id="1148" parent="382" name="film_id">
       <Position>1</Position>
       <DataType>smallint|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="1148" parent="382" name="category_id">
+    <column id="1149" parent="382" name="category_id">
       <Position>2</Position>
       <DataType>tinyint|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="1149" parent="382" name="last_update">
+    <column id="1150" parent="382" name="last_update">
       <Position>3</Position>
       <DataType>timestamp|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="1150" parent="383" name="id">
+    <column id="1151" parent="383" name="id">
       <Position>1</Position>
       <DataType>smallint unsigned|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="1151" parent="383" name="number">
+    <column id="1152" parent="383" name="number">
       <Position>2</Position>
       <DataType>smallint unsigned|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="1152" parent="383" name="PRIMARY">
+    <key id="1153" parent="383" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
