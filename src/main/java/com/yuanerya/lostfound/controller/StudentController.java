@@ -7,11 +7,13 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.servlet.ModelAndView;
 
 import javax.servlet.http.HttpServletRequest;
 
 
-@Controller
+@RestController
 
 public class StudentController {
     @Autowired
@@ -19,16 +21,15 @@ public class StudentController {
 
 
 
-
     //跳转到登录页面
     @RequestMapping("/login")
-    public String show(){
-        return "login";
+    public ModelAndView show(){
+        return new ModelAndView("login");
     }
 
 
     @PostMapping("/loginStudent")
-    public String login(@RequestParam("studentNo")String studentNo, @RequestParam("studentPassword")String studentPassword,
+    public ModelAndView login(@RequestParam("studentNo")String studentNo, @RequestParam("studentPassword")String studentPassword,
                         HttpServletRequest request){
         Student student = new Student();
         student.setStudentNo(studentNo);
@@ -36,19 +37,19 @@ public class StudentController {
         Student student2=studentService.login(student);
         if(student2==null){
             //登录失败返回登录页
-            return "login";
+            return new ModelAndView("login");
         }else{
             request.getSession().setAttribute("session_student",student);//登录成功后将用户放入session中，用于拦截
             //登陆成功前往主页面
-            return "main";
+            return new ModelAndView("main");
         }
     }
 
 
     //跳转注册页
     @RequestMapping("/register")
-    public String toRegister(){
-        return "register";
+    public ModelAndView toRegister(){
+        return new ModelAndView("register");
     }
 
     /**
@@ -63,7 +64,7 @@ public class StudentController {
      * @return
      */
     @PostMapping("/registerStudent")
-    public String register(@RequestParam("studentNo")String studentNo, @RequestParam("studentPassword")String studentPassword,
+    public ModelAndView register(@RequestParam("studentNo")String studentNo, @RequestParam("studentPassword")String studentPassword,
                            @RequestParam("institute")String institute, @RequestParam("grade")String grade,
                            @RequestParam("classbj")String classbj, @RequestParam("name")String name,
                            HttpServletRequest request){
@@ -77,15 +78,15 @@ public class StudentController {
         if(studentService.save(student)){
             request.getSession().setAttribute("session_student",student);
 
-            return "login";
-        }else{return "注册失败";}
+            return new ModelAndView("main");
+        }else{return new ModelAndView("register");}
     }
 
 
     //测试未登陆拦截页面,进入主页面
     @RequestMapping("/main")
-    public String welcome(){
-        return "main";
+    public ModelAndView welcome(){
+        return new ModelAndView("main");
     }
 
 }

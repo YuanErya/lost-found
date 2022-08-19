@@ -1,21 +1,29 @@
 package com.yuanerya.lostfound.controller;
 
+import com.alibaba.fastjson.JSON;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.yuanerya.lostfound.config.JsonResult;
 import com.yuanerya.lostfound.domain.LostThing;
 import com.yuanerya.lostfound.service.LostThingService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
+//get请求的查询均返回json形式的字符串
 @RestController
 @RequestMapping("/lostThings")
 public class LostThingController {
     @Autowired
     private LostThingService lostThingService;
 
+    JsonResult jr=new JsonResult();
+
     //查询全部丢失物品的信息
     @GetMapping
-    public List<LostThing> getAll(){
-        return lostThingService.getAll();
+    public String getAll(){
+
+        //转化为Json字符串返回
+        return JSON.toJSONString(lostThingService.getAll());
     }
 
     //增添丢失物品
@@ -40,8 +48,8 @@ public class LostThingController {
 
     //单个查询
     @GetMapping("{id}")
-    public LostThing getById(@PathVariable Integer id){
-        return lostThingService.getById(id);
+    public String getById(@PathVariable Integer id){
+        return JSON.toJSONString(lostThingService.getById(id));
     }
 
 

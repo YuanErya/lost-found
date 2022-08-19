@@ -10,18 +10,17 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="50b0f755-ca8f-4569-858c-288b707287c1" name="Default Changelist" comment="完成登录和注册">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yuanerya/lostfound/controller/LostThingController.java" afterDir="false" />
+    <list default="true" id="50b0f755-ca8f-4569-858c-288b707287c1" name="Default Changelist" comment="完成了丢失物品的增删改查">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yuanerya/lostfound/config/FJsonConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yuanerya/lostfound/config/JsonResult.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yuanerya/lostfound/service/LostThingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yuanerya/lostfound/service/LostThingService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yuanerya/lostfound/service/impl/LostThingServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yuanerya/lostfound/service/impl/LostThingServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yuanerya/lostfound/Interceptor/StudentInterceptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yuanerya/lostfound/Interceptor/StudentInterceptor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yuanerya/lostfound/config/SessionInterceptorConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yuanerya/lostfound/config/SessionInterceptorConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lost-found.iml" beforeDir="false" afterPath="$PROJECT_DIR$/lost-found.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yuanerya/lostfound/controller/LostThingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yuanerya/lostfound/controller/LostThingController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yuanerya/lostfound/controller/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yuanerya/lostfound/controller/StudentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yuanerya/lostfound/domain/LostThing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yuanerya/lostfound/domain/LostThing.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/yuanerya/lostfound/controller/StudentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yuanerya/lostfound/controller/StudentController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yuanerya/lostfound/service/LostThingService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yuanerya/lostfound/service/LostThingService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yuanerya/lostfound/service/impl/LostThingServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yuanerya/lostfound/service/impl/LostThingServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yuanerya/lostfound/domain/LostThing.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yuanerya/lostfound/domain/LostThing.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +67,44 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
+  <component name="RestClientSettings">
+    <option name="REQUEST_HISTORY">
+      <list>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="JSESSIONID" />
+                <option name="path" value="/" />
+                <option name="value" value="85AE42B78698F4BB582A6078BF4DCBF0" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost/lostThings" />
+          <option name="urlPath" value="" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost/lostThings" />
+          <option name="urlPath" value="" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+      </list>
+    </option>
+  </component>
   <component name="RunManager" selected="Spring Boot.LostFoundApplication">
+    <configuration name="generated-requests#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="generated-requests#2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="2" runType="Run single request">
+      <method v="2" />
+    </configuration>
     <configuration name="StudentServiceTestCase.testGetById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="lost-found" />
       <extension name="coverage">
@@ -80,38 +116,6 @@
       <option name="PACKAGE_NAME" value="com.yuanerya.lostfound.service" />
       <option name="MAIN_CLASS_NAME" value="com.yuanerya.lostfound.service.StudentServiceTestCase" />
       <option name="METHOD_NAME" value="testGetById" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="test.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="lost-found" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.yuanerya.lostfound.mapper.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.yuanerya.lostfound.mapper" />
-      <option name="MAIN_CLASS_NAME" value="com.yuanerya.lostfound.mapper.test" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="test.testGetAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="lost-found" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.yuanerya.lostfound.mapper.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.yuanerya.lostfound.mapper" />
-      <option name="MAIN_CLASS_NAME" value="com.yuanerya.lostfound.mapper.test" />
-      <option name="METHOD_NAME" value="testGetAll" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -158,11 +162,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="HTTP Request.generated-requests#2" />
+        <item itemvalue="HTTP Request.generated-requests#1" />
         <item itemvalue="JUnit.test.testLogin" />
         <item itemvalue="JUnit.test.testSave" />
         <item itemvalue="JUnit.StudentServiceTestCase.testGetById" />
-        <item itemvalue="JUnit.test.testGetAll" />
-        <item itemvalue="JUnit.test.test" />
       </list>
     </recent_temporary>
   </component>
@@ -176,7 +180,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1660804246363</updated>
-      <workItem from="1660804251625" duration="45670000" />
+      <workItem from="1660804251625" duration="55945000" />
     </task>
     <task id="LOCAL-00001" summary="创建项目">
       <created>1660804340139</created>
@@ -248,7 +252,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660903554774</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="完成了丢失物品的增删改查">
+      <created>1660906665508</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1660906665508</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -274,7 +285,8 @@
     <MESSAGE value="在Mapper中加入登录查询的方法" />
     <MESSAGE value="大致完成登录" />
     <MESSAGE value="完成登录和注册" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成登录和注册" />
+    <MESSAGE value="完成了丢失物品的增删改查" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成了丢失物品的增删改查" />
   </component>
   <component name="WindowStateProjectService">
     <state x="571" y="134" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1660807423318">
@@ -293,38 +305,38 @@
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="549" y="163" key="FileChooserDialogImpl/0.0.1536.816@0.0.1536.816" timestamp="1660814213661" />
-    <state width="1493" height="208" key="GridCell.Tab.0.bottom" timestamp="1660906200517">
+    <state width="1493" height="208" key="GridCell.Tab.0.bottom" timestamp="1660921989587">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="208" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1660906200517" />
-    <state width="1493" height="208" key="GridCell.Tab.0.center" timestamp="1660906200517">
+    <state width="1493" height="208" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1660921989587" />
+    <state width="1493" height="208" key="GridCell.Tab.0.center" timestamp="1660921989587">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="208" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1660906200517" />
-    <state width="1493" height="208" key="GridCell.Tab.0.left" timestamp="1660906200517">
+    <state width="1493" height="208" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1660921989587" />
+    <state width="1493" height="208" key="GridCell.Tab.0.left" timestamp="1660921989587">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="208" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1660906200517" />
-    <state width="1493" height="208" key="GridCell.Tab.0.right" timestamp="1660906200517">
+    <state width="1493" height="208" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1660921989587" />
+    <state width="1493" height="208" key="GridCell.Tab.0.right" timestamp="1660921989587">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="208" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1660906200517" />
-    <state width="1493" height="208" key="GridCell.Tab.1.bottom" timestamp="1660906200517">
+    <state width="1493" height="208" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1660921989587" />
+    <state width="1493" height="208" key="GridCell.Tab.1.bottom" timestamp="1660921989582">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="208" key="GridCell.Tab.1.bottom/0.0.1536.816@0.0.1536.816" timestamp="1660906200517" />
-    <state width="1493" height="208" key="GridCell.Tab.1.center" timestamp="1660906200517">
+    <state width="1493" height="208" key="GridCell.Tab.1.bottom/0.0.1536.816@0.0.1536.816" timestamp="1660921989582" />
+    <state width="1493" height="208" key="GridCell.Tab.1.center" timestamp="1660921989582">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="208" key="GridCell.Tab.1.center/0.0.1536.816@0.0.1536.816" timestamp="1660906200517" />
-    <state width="1493" height="208" key="GridCell.Tab.1.left" timestamp="1660906200517">
+    <state width="1493" height="208" key="GridCell.Tab.1.center/0.0.1536.816@0.0.1536.816" timestamp="1660921989582" />
+    <state width="1493" height="208" key="GridCell.Tab.1.left" timestamp="1660921989582">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="208" key="GridCell.Tab.1.left/0.0.1536.816@0.0.1536.816" timestamp="1660906200517" />
-    <state width="1493" height="208" key="GridCell.Tab.1.right" timestamp="1660906200517">
+    <state width="1493" height="208" key="GridCell.Tab.1.left/0.0.1536.816@0.0.1536.816" timestamp="1660921989582" />
+    <state width="1493" height="208" key="GridCell.Tab.1.right" timestamp="1660921989582">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="208" key="GridCell.Tab.1.right/0.0.1536.816@0.0.1536.816" timestamp="1660906200517" />
+    <state width="1493" height="208" key="GridCell.Tab.1.right/0.0.1536.816@0.0.1536.816" timestamp="1660921989582" />
     <state width="284" height="477" key="HiddenNamespacesPopup" timestamp="1660804952612">
       <screen x="0" y="0" width="1536" height="816" />
     </state>

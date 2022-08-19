@@ -1,5 +1,6 @@
 package com.yuanerya.lostfound.domain;
 
+import com.alibaba.fastjson.annotation.JSONField;
 import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableName;
 import lombok.Data;
@@ -14,6 +15,7 @@ public class LostThing {
     private String lostPosition;
     private String lostDescription;
     private String claimPosition;
+    @JSONField(format = "yyyy-MM-dd")
     private Date lostDate;
     private String isReturned;
 }
