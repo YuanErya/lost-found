@@ -8,7 +8,7 @@ import java.util.List;
 public interface LostThingService {
     Boolean save(LostThing lostThing);
     Boolean update(LostThing lostThing);
-    Boolean delete(Integer id);
+    Boolean remove(Integer id);
     LostThing getById(Integer id);
     List<LostThing> getAll();
     IPage<LostThing> getPage(int currentPage,int pageSize);

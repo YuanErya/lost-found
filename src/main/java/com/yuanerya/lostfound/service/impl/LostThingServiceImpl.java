@@ -1,5 +1,7 @@
 package com.yuanerya.lostfound.service.impl;
 
+import com.baomidou.mybatisplus.core.metadata.IPage;
+import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.yuanerya.lostfound.domain.LostThing;
 import com.yuanerya.lostfound.mapper.LostThingMapper;
 import com.yuanerya.lostfound.service.LostThingService;
@@ -29,7 +31,7 @@ public class LostThingServiceImpl implements LostThingService {
 
     //删除
     @Override
-    public Boolean delete(Integer id) {
+    public Boolean remove(Integer id) {
         return lostThingMapper.deleteById(id)>0;
     }
 
@@ -43,5 +45,13 @@ public class LostThingServiceImpl implements LostThingService {
     @Override
     public List<LostThing> getAll() {
         return lostThingMapper.selectList(null);
+    }
+
+    //分页查询
+    @Override
+    public IPage<LostThing> getPage(int currentPage, int pageSize) {
+        IPage page=new Page(currentPage,pageSize);
+        lostThingMapper.selectPage(page,null);
+        return page;
     }
 }
